@@ -1,0 +1,19 @@
+# 敏感配置文件（绝对不上传）
+.env
+
+# Python缓存文件
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境（体积太大，不需要上传）
+venv/
+.venv/
+
+# IDE配置文件（可选，保留也无妨）
+.vscode/
+
+# 日志和数据文件（运行时产生，不需要上传）
+*.log
+*.xlsx
+chat_history.json
